@@ -15,4 +15,4 @@ From: http://matt.might.net/articles/what-cs-majors-should-know/
 
 Scripts, named for the general task required, are located in `scripts/` and `test_environment/` has some simulated files for the tests to consume.
 
-Note: 5 and 7 not yet completed as of 8/30
+Note: (5) and (7) not yet completed as of August 30, 2015
