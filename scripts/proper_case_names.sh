@@ -1,5 +1,5 @@
 #! /bin/bash
-
+# reads from standard input
 while read name; do
     proper_case_name=""
     for word in $name; do

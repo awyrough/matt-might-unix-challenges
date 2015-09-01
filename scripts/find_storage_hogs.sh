@@ -1,3 +1,5 @@
 #! /bin/bash
-# run with the sudo option or else you get errors on some files
-sudo du -a /var | sort -n -r | head -n 5
+
+DIRECTORY=test_environment/
+# run with the sudo option or else you get errors on some directories
+du -a $DIRECTORY | sort -n -r | head -n 5

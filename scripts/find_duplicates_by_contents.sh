@@ -1,6 +1,9 @@
 #! /bin/bash
 
-MP3_FILES=$(find test_environment -name '*.mp3')
+DIRECTORY=test_environment/
+
+CMD='find '$DIRECTORY' -name *.mp3'
+MP3_FILES=$($CMD)
 
 for f in $MP3_FILES; do
     matching_file="$(<  $f)"
